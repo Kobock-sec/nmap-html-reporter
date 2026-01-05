@@ -6,6 +6,17 @@
 # License : MIT
 # ----------------------------------------
 
+VERSION = "1.1"
+
+BANNER = f"""
+=====================================
+   Nmap HTML Reporter v{VERSION}
+   Author : Kobock
+   GitHub : https://github.com/kobock-sec
+=====================================
+"""
+
+print(BANNER)
 
 import argparse
 import xml.etree.ElementTree as ET

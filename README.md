@@ -13,6 +13,15 @@ This tool was created for educational and ethical security testing purposes.
 
 A simple Python tool to convert Nmap XML scans into beautiful HTML reports.
 
+## 🖼️ Screenshots
+
+### Example 1
+![HTML Report Example 1](Dark Mode.png)
+
+### Example 2
+![HTML Report Example 2](Light Mode.png)
+
+
 ---
 
 ## Features

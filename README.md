@@ -30,7 +30,7 @@ A simple Python tool to convert Nmap XML scans into beautiful HTML reports.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nmap-html-report.git
+git clone https://github.com/kobock-sec/nmap-html-report.git
 cd nmap-html-report
 
 ## ⚠️ Legal Disclaimer

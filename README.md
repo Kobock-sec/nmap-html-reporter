@@ -8,10 +8,10 @@ A simple Python tool to convert **Nmap XML scans** into clean and readable
 ## 🖼️ Screenshots
 
 ### Dark Mode
-![HTML Report Dark Mode](dark_mode.png)
+![HTML Report Dark Mode](darkmode.png)
 
 ### Light Mode
-![HTML Report Light Mode](light_mode.png)
+![HTML Report Light Mode](lightmode.png)
 
 ---
 

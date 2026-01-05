@@ -26,6 +26,13 @@ A simple Python tool to convert Nmap XML scans into beautiful HTML reports.
 
 ---
 
+## 📦 Requirements
+
+- Python 3
+- Nmap
+
+---
+
 ## Installation
 
 1. Clone the repository:
@@ -33,6 +40,21 @@ A simple Python tool to convert Nmap XML scans into beautiful HTML reports.
 git clone https://github.com/kobock-sec/nmap-html-report.git
 cd nmap-html-report
 
+## 🚀 Usage
+
+### 1️⃣ Run Nmap scan
+```bash
+nmap scanme.nmap.org -oX scan.xml
+
+### 2️⃣ Generate HTML report
+
+python3 parser.py -i scan.xml -o report.html --open-only
+
+### 3️⃣ Open the report
+
+explorer.exe report.html
+
+.......................
 ## ⚠️ Legal Disclaimer
 
 This tool is intended for **educational purposes only**.

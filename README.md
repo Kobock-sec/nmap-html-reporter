@@ -37,11 +37,13 @@ A simple Python tool to convert **Nmap XML scans** into clean and readable
 
 ```bash
 git clone https://github.com/kobock-sec/nmap-html-report.git
-cd nmap-html-report ```bash
+cd nmap-html-report
+```
 
 
 ## 🚀 Usage
 
+```bash
 1️⃣ Run Nmap scan
 nmap scanme.nmap.org -oX scan.xml
 
@@ -50,6 +52,7 @@ python3 parser.py -i scan.xml -o report.html --open-only
 
 3️⃣ Open the report
 explorer.exe report.html
+```
 
 ## 👤 Author
 

@@ -8,10 +8,10 @@ A simple Python tool to convert **Nmap XML scans** into clean and readable
 ## 🖼️ Screenshots
 
 ### Dark Mode
-![HTML Report Dark Mode](darkmode.png)
+![HTML Report Dark Mode](DarkMode.png)
 
 ### Light Mode
-![HTML Report Light Mode](lightmode.png)
+![HTML Report Light Mode](LightMode.png)
 
 ---
 
@@ -37,11 +37,8 @@ A simple Python tool to convert **Nmap XML scans** into clean and readable
 
 ```bash
 git clone https://github.com/kobock-sec/nmap-html-report.git
-cd nmap-html-report
+cd nmap-html-report ```bash
 
----
-```bash
----
 
 ## 🚀 Usage
 

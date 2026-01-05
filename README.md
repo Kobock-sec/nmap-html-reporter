@@ -39,22 +39,18 @@ A simple Python tool to convert **Nmap XML scans** into clean and readable
 git clone https://github.com/kobock-sec/nmap-html-report.git
 cd nmap-html-report
 
-🚀 Usage
-1️⃣ Run Nmap scan
+## 🚀 Usage
 
+1️⃣ Run Nmap scan
 nmap scanme.nmap.org -oX scan.xml
 
 2️⃣ Generate HTML report
-
 python3 parser.py -i scan.xml -o report.html --open-only
 
 3️⃣ Open the report
-
-
 explorer.exe report.html
 
-
-👤 Author
+## 👤 Author
 
 Name: Kobock
 
@@ -64,7 +60,7 @@ GitHub: https://github.com/kobock-sec
 
 This tool was created for educational and ethical security testing purposes.
 
-⚠️ Legal Disclaimer
+## ⚠️ Legal Disclaimer
 
 This tool is intended for educational purposes only.
 
